@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int64_t s = 1;
+    int64_t s = 0;
     int64_t x;
 
     while (true)

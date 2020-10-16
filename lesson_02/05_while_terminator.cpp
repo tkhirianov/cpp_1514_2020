@@ -3,16 +3,14 @@ using namespace std;
 
 int main()
 {
-    int64_t s = 1;
+    int64_t s = 0;
     int64_t x;
-
-    while (true)
+    cin >> x;
+    while (x != 0)
     {
-        cin >> x;
-        if (0 == x) break; // goto EXIT;
         s += x;
+        cin >> x;  // похоже на итерирование
     }
-EXIT:
     cout << "sum of numbers is " << s << ".\n";
     return 0;
 }
